@@ -7,6 +7,8 @@
 /public/bundles/
 /var/
 /vendor/
+## ajout mj le 23/11/20
+/.env
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
