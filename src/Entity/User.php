@@ -34,10 +34,6 @@ class User
      */
     private $email;
 
-    /**
-     * @ORM\Column(type="boolean", nullable=true)
-     */
-    private $author;
 
     /**
      * @ORM\Column(type="datetime", nullable=true)
@@ -96,18 +92,6 @@ class User
     public function setEmail(string $email): self
     {
         $this->email = $email;
-
-        return $this;
-    }
-
-    public function getAuthor(): ?bool
-    {
-        return $this->author;
-    }
-
-    public function setAuthor(?bool $author): self
-    {
-        $this->author = $author;
 
         return $this;
     }
